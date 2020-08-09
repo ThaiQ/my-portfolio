@@ -6,11 +6,12 @@ import * as THREE from 'three';
 import Navbar from '../../components/navbar/navbar'
 import About from '../About/about'
 import Skill from '../Skill/skill'
-import {profilePicture} from '../../components/svg/svg'
+import { profilePicture } from '../../components/svg/svg'
 import WorkExp from '../Experience/WorkExp/experience'
 import ProjExp from '../Experience/ProjExp/experience'
 import Contact from '../Contact/contact'
 import Footer from '../../components/footer/footer'
+import { Link } from 'react-scroll'
 
 export default class Home extends Component {
 
@@ -57,17 +58,26 @@ export default class Home extends Component {
                 </div>
             </div>
 
-            <About id='about'/>
+            <section id='nav-about'>
+            <About/>
+            </section>
 
-            <Skill id='skills'/>
+            <section id='nav-skills'>
+            <Skill/>
+            </section>
 
-            <WorkExp id='Wkexp'/>
+            <section id='nav-wkexp'>
+            <WorkExp/>
+            </section>
 
-            <ProjExp id='PJexp'/>
+            <section id='nav-prj'>
+            <ProjExp/>
+            </section>
 
-            <Contact id='contact'/>
-
-            <Footer />
+            <section id='nav-contact'>
+                <Contact />
+                <Footer />
+            </section>
         </div>
     }
 }

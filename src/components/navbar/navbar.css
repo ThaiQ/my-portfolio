@@ -10,6 +10,20 @@
     font-size: 2vw;
 }
 
+.nav-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.resume-link{
+    color: white;
+}
+
+.resume-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1000px) {
     #brand {
         font-size: 5vw;

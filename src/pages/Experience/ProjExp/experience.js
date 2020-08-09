@@ -5,7 +5,7 @@ export default function ProjExp() {
   const projectBio = [
     {
       title: 'IBM Good Tech Scholars Program',
-      year: 'July 2020 | virtual',
+      year: 'July 2020 | Virtual',
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
         'devicon-postgresql-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
@@ -46,8 +46,8 @@ export default function ProjExp() {
     {
       title: 'STAKr-Calendar Developer',
       year: 'March - June 2020',
-      skills: ['devicon-javascript-plain colored', 'devicon-python-plain colored',
-        'devicon-git-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored', 'devicon-heroku-original colored'],
+      skills: ['devicon-python-plain colored', 'devicon-javascript-plain colored', 'devicon-html5-plain colored', 
+        'devicon-css3-plain colored', 'devicon-git-plain colored', 'devicon-heroku-original colored'],
       picSkills:[
         {
           file: 'flask.png',
@@ -82,7 +82,8 @@ export default function ProjExp() {
       year: 'June - August 2020',
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-github-plain', 'devicon-git-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
-      github: 'https://github.com/ThaiQ/my-portfolio',
+      github: 'https://github.com/ThaiQ/my-porfolio',
+      demo: '/',
       aboutProj: 'Designed a personal portfolio.',
       personal: [
         'Developed frontend with ReactJS and integrated animation from various open-source libraries.',
@@ -105,9 +106,7 @@ export default function ProjExp() {
 
   return (
     <div>
-
       <h1 className='title'>Projects</h1>
-
       {projectBio.map((bio, ind) => {
         return <Proj key={ind} {...bio} />
       })}
