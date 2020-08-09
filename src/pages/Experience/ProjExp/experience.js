@@ -2,92 +2,115 @@ import React, { useState } from 'react';
 import Proj from '../../../components/project-box/projectBox'
 
 export default function ProjExp() {
-    const projectBio = [
-      {
-        title:'IBM Good Tech Scholars Program',
-        year:'July 2020 | virtual',
-        skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored','devicon-nodejs-plain colored','devicon-express-original',
-        'devicon-postgresql-plain colored','devicon-npm-original-wordmark colored',
+  const projectBio = [
+    {
+      title: 'IBM Good Tech Scholars Program',
+      year: 'July 2020 | virtual',
+      skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
+        'devicon-postgresql-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
-        picSkills:['ibm.png'],
-        github:'https://github.com/ThaiQ/IBMScholars',
-        demo:'http://epicedu-demo.mybluemix.net/',
-        aboutProj: 'Learned and used the IBM-cloud technology to build an impactful project and\
+      picSkills: [
+        {
+          file: 'ibm.png',
+          widthBig: '50px',
+          widthSmall: '50px'
+        }
+      ],
+      github: 'https://github.com/ThaiQ/IBMScholars',
+      demo: 'http://epicedu-demo.mybluemix.net/',
+      aboutProj: 'Learned and used the IBM-cloud technology to build an impactful project and\
         competing against 10 different teams under the guidance of IBM mentors.\
         Built Epic-Education, an online educational platform, targeting low-income elementary school\
         kids with disabilities. The project aims to give children with autism and ADHD a personalized\
         workspace to fit their educational needs. The project won 1st place in the internship program.',
-        personal: [
-          "Developed the project's infrastructure and backend.",
-          "Used IBM cloud services: Elephant-SQL database (PostgreSQL), Watson's Text-to-speech service, and Cloud Foundry to build and deploy the application to the cloud.",
-          'Fixes bugs and refactoring frontend.',
-        ]
-      },
-      {
-        title:'SCE Development Chair',
-        year:'August 2018 - present | at SJSU Software and Computer Engineering Society (SCE)',
-        skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored','devicon-nodejs-plain colored','devicon-express-original',
-        'devicon-mongodb-plain colored','devicon-npm-original-wordmark colored',
+      personal: [
+        "Developed the project's infrastructure and backend.",
+        "Used IBM cloud services: Elephant-SQL database (PostgreSQL), Watson's Text-to-speech service, and Cloud Foundry to build and deploy the application to the cloud.",
+        'Fixes bugs and refactoring frontend.',
+      ]
+    },
+    {
+      title: 'SCE Development Chair',
+      year: 'August 2018 - present | at SJSU Software and Computer Engineering Society (SCE)',
+      skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
+        'devicon-mongodb-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
-        github:'https://github.com/SCE-Development/Core-v4',
-        aboutProj: 'Led a team of 20 software engineering students and coordinated different events and development projects for SCE.',
-        personal: [
-          'Developed a dynamic website for SCE students using the full-stack React, Mongo, Express, and Node.',
-          'Used TravisCI, git, and Jest to manage and write test cases for components allowing better controls and easier future development.',
-          'Planned and executed infrastructure works with MERN-stack, Dockers Compose, and Google Firebase.'
-        ]
-      },
-      {
-        title:'STAKr-Calendar Developer',
-        year:'March - June 2020',
-        skills: ['devicon-javascript-plain colored','devicon-python-plain colored',
+      github: 'https://github.com/SCE-Development/Core-v4',
+      aboutProj: 'Led a team of 20 software engineering students and coordinated different events and development projects for SCE.',
+      personal: [
+        'Developed a dynamic website for SCE students using the full-stack React, Mongo, Express, and Node.',
+        'Used TravisCI, git, and Jest to manage and write test cases for components allowing better controls and easier future development.',
+        'Planned and executed infrastructure works with MERN-stack, Dockers Compose, and Google Firebase.'
+      ]
+    },
+    {
+      title: 'STAKr-Calendar Developer',
+      year: 'March - June 2020',
+      skills: ['devicon-javascript-plain colored', 'devicon-python-plain colored',
         'devicon-git-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored', 'devicon-heroku-original colored'],
-        picSkills:['flask.png', 'ajax.png', 'travis.png'],
-        github:'https://github.com/ThaiQ/CalendarApp_STAKr',
-        demo: 'https://stakr-calendar.herokuapp.com/',
-        aboutProj: 'Built a calendar application allowing the customer and owner to communicate with one another by creating meetings through a calendar interface.',
-        personal: [
-          "Built the project's backend with Python and Flask-framework.",
-          'Developed the appointment functionality and API of the application with AJAX and SQLite.',
-          'Designed the application frontend with Bootstrap.',
-          'Wrote backend tests and integrated auto-integration using TravisCI.',
-          'Deployed the application on Heroku.'
-        ]
-      },
-      {
-        title:'Personal Porfolio',
-        year:'June - August 2020',
-        skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored','devicon-npm-original-wordmark colored',
+      picSkills:[
+        {
+          file: 'flask.png',
+          widthBig: '40px',
+          widthSmall: '30px',
+          word: 'Flask'
+        },
+        {
+          file: 'ajax.png',
+          widthBig: '70px',
+          widthSmall: '50px'
+        },
+        {
+          file: 'travis.png',
+          widthBig: '50px',
+          widthSmall: '40px'
+        }
+      ],
+      github: 'https://github.com/ThaiQ/CalendarApp_STAKr',
+      demo: 'https://stakr-calendar.herokuapp.com/',
+      aboutProj: 'Built a calendar application allowing the customer and owner to communicate with one another by creating meetings through a calendar interface.',
+      personal: [
+        "Built the project's backend with Python and Flask-framework.",
+        'Developed the appointment functionality and API of the application with AJAX and SQLite.',
+        'Designed the application frontend with Bootstrap.',
+        'Wrote backend tests and integrated auto-integration using TravisCI.',
+        'Deployed the application on Heroku.'
+      ]
+    },
+    {
+      title: 'Personal Porfolio',
+      year: 'June - August 2020',
+      skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-github-plain', 'devicon-git-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
-        github:'https://github.com/ThaiQ/my-portfolio',
-        aboutProj: 'Designed a personal portfolio.',
-        personal: [
-          'Developed frontend with ReactJS and integrated animation from various open-source libraries.',
-          'Deployed with Github.',
-        ]
-      },
-      {
-        title:'First Robotic Competition',
-        year:'October 2015 - June 2018 | Software Lead at Team 5027',
-        skills: ['devicon-java-plain colored','devicon-python-plain colored'],
-        aboutProj: 'Built robots to compete in First Robotic Competition under the guidance of mentors from Qualcomm and Apple.\
+      github: 'https://github.com/ThaiQ/my-portfolio',
+      aboutProj: 'Designed a personal portfolio.',
+      personal: [
+        'Developed frontend with ReactJS and integrated animation from various open-source libraries.',
+        'Deployed with Github.',
+      ]
+    },
+    {
+      title: 'First Robotic Competition',
+      year: 'October 2015 - June 2018 | Software Lead at Team 5027',
+      skills: ['devicon-java-plain colored', 'devicon-python-plain colored'],
+      aboutProj: 'Built robots to compete in First Robotic Competition under the guidance of mentors from Qualcomm and Apple.\
         The team held the Home Championship for two years: Houston, CalGame 2017 and CalGame 2016.',
-        personal: [
-          "Worked with a team of 5 leads to organize 20 members throughout the construction process of robots.",
-          'Recruited and trained new members in Java, OpenCV and automation mechanics.',
-          'Contributed to the design and construction of robots’ circuit boards with the electrical team.'
-        ]
-      }
-    ]
+      personal: [
+        "Worked with a team of 5 leads to organize 20 members throughout the construction process of robots.",
+        'Recruited and trained new members in Java, OpenCV and automation mechanics.',
+        'Contributed to the design and construction of robots’ circuit boards with the electrical team.'
+      ]
+    }
+  ]
 
-    return (
-      <div>
+  return (
+    <div>
 
-        <h1 className='title'>Projects</h1>
+      <h1 className='title'>Projects</h1>
 
-        {projectBio.map((bio, ind)=>{
-          return <Proj key={ind} {...bio}/>
-        })}
-      </div>
-    );
-  }
+      {projectBio.map((bio, ind) => {
+        return <Proj key={ind} {...bio} />
+      })}
+    </div>
+  );
+}

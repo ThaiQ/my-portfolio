@@ -31,18 +31,21 @@
     font-size: 30px;
     margin-left: 1vh;
 }
-#proj-skill > img {
-    width: 170px;
-    margin-left: 1vh;
-    margin-bottom: 20px;
-}
 #proj-year {
     grid: year;
     color: white;
     text-align: right;
     margin-right: 2%;
 }
-
+#proj-skill > img {
+    margin: 0px;
+    padding: 0px;
+}
+#proj-skill > nobr {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 1vh;
+}
 .box-border {
     border: solid 0.25vw white;
     position: relative;
@@ -51,24 +54,37 @@
     right: 10%;
     margin-top: 5vh;
 }
-
 .proj-button {
     margin-right: 3vw;
     float: right;
 }
+.flex-container-sk {
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .flex-item-sk {
+    margin:0%;
+  }
+
+.wrap-reverse-sk         { 
+    -webkit-flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    justify-content: left;
+  } 
 
 @media only screen and (max-width: 366px) {
     .proj-button {
         margin: 10px;
     }
 }
-
-@media only screen and (max-width: 300px) {
-    #proj-skill > img {
-        margin-bottom: 0px;
-    }
-}
-
 
 @media only screen and (min-width: 877px) {
     /*big screen*/
@@ -113,11 +129,6 @@
     #proj-skill > i {
         font-size: 45px;
         margin-left: 1vh;
-    }
-    #proj-skill > img {
-        width: 250px;
-        margin-left: 1vh;
-        margin-bottom: 30px;
     }
     #proj-year {
         grid: year;
