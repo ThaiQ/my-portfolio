@@ -1,0 +1,53 @@
+.footer {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#footer-content {
+    display: inline-block;
+}
+
+.footer-icon {
+    font-size: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+#mail-icon {
+    fill: white;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-icon {
+        font-size: 60px;
+    }
+    #mail-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 340px) { 
+    .footer {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 366px) {
+    .footer-icon {
+        font-size: 50px;
+    }
+    #mail-icon {
+        width: 50px;
+        height: 50px;
+    }
+}

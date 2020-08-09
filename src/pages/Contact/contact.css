@@ -1,0 +1,19 @@
+#form-div {
+    text-align: center;
+}
+
+.form {
+    color: white;
+    width: 60vw;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 5vh;
+}
+
+#form-button {
+    float: right;
+}
+
+#form-txt {
+    height: 30vh;
+}

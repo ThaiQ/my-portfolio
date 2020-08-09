@@ -1,0 +1,16 @@
+.ani-text[animation='true'] {
+    animation: type 0.8s 1;
+}
+
+@keyframes type {
+    0% {
+        width:0%;
+        visibility: hidden;
+    }
+    50% {
+        visibility: visible;
+    }
+    100% {
+        width: 100%;
+    }
+  }

@@ -1,0 +1,154 @@
+#box {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'title title year'
+    'skill skill skill'
+    'pic pic pic'
+    'text text text';
+    grid-gap: 10px;
+    margin: 1vh;
+}
+#proj-img {
+    grid-area: pic;
+    height: 30vh;
+    width: 30vh;
+}
+#proj-text {
+    grid-area: text;
+    color: white;
+}
+#proj-title {
+    grid-area: title;
+    color: white;
+    font-size: 3vh;
+}
+#proj-skill {
+    grid-area: skill;
+    color: white;
+}
+#proj-skill > i {
+    font-size: 30px;
+    margin-left: 1vh;
+}
+#proj-skill > img {
+    width: 170px;
+    margin-left: 1vh;
+    margin-bottom: 20px;
+}
+#proj-year {
+    grid: year;
+    color: white;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.box-border {
+    border: solid 0.25vw white;
+    position: relative;
+    width: 80vw;
+    left: 10%;
+    right: 10%;
+    margin-top: 5vh;
+}
+
+.proj-button {
+    margin-right: 3vw;
+    float: right;
+}
+
+@media only screen and (max-width: 366px) {
+    .proj-button {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #proj-skill > img {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media only screen and (min-width: 877px) {
+    /*big screen*/
+    #box[pic='true'] {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'pic title year'
+        'pic skill skill'
+        'pic text text';
+        grid-gap: 10px;
+        margin: 1vh;
+    }
+    #box[pic='false'] {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'title year'
+        'skill skill'
+        'text text';
+        grid-gap: 10px;
+        margin: 1vh;
+    }
+    #proj-img {
+        grid-area: pic;
+        height: 20vw;
+        width: 20vw;
+    }
+    #proj-text {
+        grid-area: text;
+        color: white;
+    }
+    #proj-title {
+        grid-area: title;
+        color: white;
+        font-size: 2vw;
+    }
+    #proj-skill {
+        grid-area: skill;
+        margin-bottom: 10px;
+    }
+    #proj-skill > i {
+        font-size: 45px;
+        margin-left: 1vh;
+    }
+    #proj-skill > img {
+        width: 250px;
+        margin-left: 1vh;
+        margin-bottom: 30px;
+    }
+    #proj-year {
+        grid: year;
+        color: white;
+        text-align: right;
+        margin-right: 2%;
+    }
+    .box-border {
+        border: solid 0.25vw white;
+        position: relative;
+        width: 80vw;
+        left: 10%;
+        right: 10%;
+        margin-top: 5vh;
+    }
+
+    .proj-button {
+        margin-right: 3vw;
+        float: right;
+    }
+
+    @media only screen and (max-width: 1030px) {
+        #proj-img {
+            grid-area: pic;
+            height: 40vw;
+            width: 40vw;
+        }
+    }
+    @media only screen and (min-width: 1400px) {
+        #proj-skill {
+            font-size: 1vw;
+        }
+    }
+}

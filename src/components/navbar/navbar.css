@@ -1,0 +1,17 @@
+.text {
+    color: white !important;
+}
+
+#navbar {
+    background-color: rgb(29, 30, 31, 0.4);
+}
+
+#brand {
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    #brand {
+        font-size: 5vw;
+    }
+}
