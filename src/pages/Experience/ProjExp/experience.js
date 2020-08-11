@@ -48,6 +48,7 @@ export default function ProjExp() {
     {
       title: 'STAKr-Calendar Developer',
       year: 'March - June 2020',
+      picSRC: 'https://user-images.githubusercontent.com/18486562/81507215-ad713b80-92b0-11ea-9276-de252fd8e82d.png',
       skills: ['devicon-python-plain colored', 'devicon-javascript-plain colored', 'devicon-html5-plain colored', 
         'devicon-css3-plain colored', 'devicon-git-plain colored', 'devicon-heroku-original colored', 'devicon-jquery-plain-wordmark colored'],
       picSkills:[
