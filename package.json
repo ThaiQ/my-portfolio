@@ -24,6 +24,7 @@
     "react-scroll": "^1.8.0",
     "react-spring": "^8.0.27",
     "reactstrap": "^8.4.1",
+    "serve": "^11.3.2",
     "three": "^0.116.1",
     "vanta": "^0.5.15"
   },
