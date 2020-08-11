@@ -112,6 +112,7 @@
         grid-area: pic;
         height: 20vw;
         width: 20vw;
+        margin: auto;
     }
     #proj-text {
         grid-area: text;

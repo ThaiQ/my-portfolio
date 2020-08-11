@@ -6,6 +6,7 @@ export default function ProjExp() {
     {
       title: 'IBM Good Tech Scholars Program',
       year: 'July 2020 | Virtual',
+      picSRC: 'epicedu.png',
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
         'devicon-postgresql-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
@@ -32,6 +33,7 @@ export default function ProjExp() {
     {
       title: 'SCE Development Chair',
       year: 'August 2018 - present | at SJSU Software and Computer Engineering Society (SCE)',
+      picSRC: 'sce.png',
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
         'devicon-mongodb-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
@@ -46,19 +48,15 @@ export default function ProjExp() {
     {
       title: 'STAKr-Calendar Developer',
       year: 'March - June 2020',
+      picSRC: 'https://user-images.githubusercontent.com/18486562/81507215-ad713b80-92b0-11ea-9276-de252fd8e82d.png',
       skills: ['devicon-python-plain colored', 'devicon-javascript-plain colored', 'devicon-html5-plain colored', 
-        'devicon-css3-plain colored', 'devicon-git-plain colored', 'devicon-heroku-original colored'],
+        'devicon-css3-plain colored', 'devicon-git-plain colored', 'devicon-heroku-original colored', 'devicon-jquery-plain-wordmark colored'],
       picSkills:[
         {
           file: 'flask.png',
           widthBig: '40px',
           widthSmall: '30px',
           word: 'Flask'
-        },
-        {
-          file: 'ajax.png',
-          widthBig: '70px',
-          widthSmall: '50px'
         },
         {
           file: 'travis.png',

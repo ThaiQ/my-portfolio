@@ -30,7 +30,7 @@ export default function NavigationBar (props) {
           <NavLink className='text'><Link to="nav-wkexp" smooth={true} duration={500} >Experience</Link></NavLink>
           <NavLink className='text'><Link to="nav-prj" smooth={true} duration={500} >Projects</Link></NavLink>
           <NavLink className='text'><a href='resume.pdf' className='resume-link' target='_blank'>Resume</a></NavLink>
-          <Button><Link to="nav-contact" smooth={true} duration={500} >Contact</Link></Button>
+          <Link to="nav-contact" smooth={true} duration={500} ><Button>Contact</Button></Link>
         </Collapse>
 
       </Navbar>

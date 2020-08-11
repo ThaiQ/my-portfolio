@@ -48,7 +48,7 @@ export default class Home extends Component {
         return <div style={{ backgroundColor: 'black' }}>
 
             <Navbar />
-
+            
             <div id='vanta' ref={this.vantaRef}>
                 <div className='intro'>
                     <h1>Hey there!</h1>
