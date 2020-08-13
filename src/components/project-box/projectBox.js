@@ -44,9 +44,9 @@ export default function ProjBox(props) {
           {props.skills.map((skill, ind) => {
             return <i key={ind} className={`${skill} flex-item-sk`} />
           })}
-          {props.picSkills && props.picSkills.map((skill, ind) => { console.log(skill)
-            return <nobr><img style={size.width>877?{width:skill.widthBig}:{width:skill.widthSmall}}
-            key={ind} src={`skills/${skill.file}`} className='flex-item' />{skill.word?skill.word:''}</nobr>
+          {props.picSkills && props.picSkills.map((skill, ind) => {
+            return <nobr key={ind}><img style={size.width>877?{width:skill.widthBig}:{width:skill.widthSmall}}
+            src={`skills/${skill.file}`} className='flex-item' />{skill.word?skill.word:''}</nobr>
           })}
         </ul>
         <div id='proj-text'>

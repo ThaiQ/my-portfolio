@@ -94,8 +94,8 @@ export default class Skill extends Component {
             <ul className="flex-container wrap-reverse">
 
                 {this.state.skills.map((skill, indx) => {
-                    return <div className='flex-item'>
-                        <i key = {indx} className={`${skill.logo} logo`} style={skill.color? {color:skill.color} : {}}/>
+                    return <div className='flex-item' key = {indx}>
+                        <i className={`${skill.logo} logo`} style={skill.color? {color:skill.color} : {}}/>
                         <h3>{skill.name}</h3>
                     </div>
                 })}
