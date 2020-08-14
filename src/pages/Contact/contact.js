@@ -16,8 +16,11 @@ export default function Contact() {
     const domain = 'domain';
     const mailgun = require('mailgun-js')({ apiKey: api_key, domain: domain });
 
+    /**
+     * Check for valid name, email, and msg.
+     * Send email with mailgun using client's valid-email address.
+     */
     function sendEmail() {
-
         if (name, email, msg) {
             const data = {
                 from: `${name} <${email}>`,
@@ -25,10 +28,11 @@ export default function Contact() {
                 subject: `THAI PORTFOLIO - Message From ${name}`,
                 text: `Name: ${name}\nEmail: ${email}\n---\n${msg}`
             };
-    
             mailgun.messages().send(data, function (error, body) {
                 if (error) {
-                    setNoti('Sorry, could not send email at the moment, please contact me at thai.quach2000@gmail.com')
+                    setNoti(`Sorry, could not send email at the moment.
+                     Make sure your email (${email}) is valid.
+                     Or contact me at thai.quach2000@gmail.com.`)
                 }
                 else {
                     toggle()
@@ -41,15 +45,16 @@ export default function Contact() {
         }
     }
 
+    /**
+     * Toggling notification modal
+     */
     function toggle() {
         setModal(!modal)
-        if (modal==false) setNoti('')
+        if (modal == false) setNoti('')
     }
 
     return <div id='form-div'>
-
         <h1 className='title'>Contact</h1>
-
         {send == false ? <Form className='form'>
             <FormGroup>
                 <Label>Your Email</Label>
@@ -73,11 +78,11 @@ export default function Contact() {
             <Modal isOpen={modal} toggle={() => { toggle() }}>
                 <ModalHeader toggle={() => { toggle() }}>Sending Email</ModalHeader>
                 <ModalBody>
-                    {noti?noti:'Are you sure?'}
+                    {noti ? noti : 'Are you sure?'}
                 </ModalBody>
                 <ModalFooter>
                     {!noti && <Button color="primary" onClick={() => { sendEmail() }}>Yes, send!</Button>}{' '}
-                    <Button color="secondary" onClick={() => { toggle() }}>{noti ? 'ok':'No, not yet!'}</Button>
+                    <Button color="secondary" onClick={() => { toggle() }}>{noti ? 'ok' : 'No, not yet!'}</Button>
                 </ModalFooter>
             </Modal>
         </div>
