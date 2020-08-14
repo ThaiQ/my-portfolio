@@ -22,7 +22,7 @@ export default function Contact() {
             const data = {
                 from: `${name} <${email}>`,
                 to: 'thai.quach2000@gmail.com',
-                subject: 'Thai Porfolio',
+                subject: `THAI PORTFOLIO - Message From ${name}`,
                 text: `Name: ${name}\nEmail: ${email}\n---\n${msg}`
             };
     
