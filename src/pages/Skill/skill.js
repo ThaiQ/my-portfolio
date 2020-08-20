@@ -71,7 +71,7 @@ export default class Skill extends Component {
                     logo: 'devicon-postgresql-plain colored'
                 },
                 {
-                    name: 'JQuerry',
+                    name: 'JQuery',
                     logo: 'devicon-jquery-plain colored'
                 },
                 {
