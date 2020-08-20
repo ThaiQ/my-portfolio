@@ -102,9 +102,9 @@
         display: grid;
         grid-template-rows: auto;
         grid-template-areas: 
-        'title year'
-        'skill skill'
-        'text text';
+        'title title year'
+        'skill skill skill'
+        'text text text';
         grid-gap: 10px;
         margin: 1vh;
     }

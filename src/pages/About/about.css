@@ -26,7 +26,12 @@
 }
 
 @media only screen and (max-width: 700px) {
+    /*Small screen*/
     .text {
         font-size: 1em;
+    }
+
+    .bio-text {
+        width: 90vw;
     }
 }

@@ -15,10 +15,10 @@ h3 {
 }
 
 .title {
-  margin-top: 3%;
+  margin-top: 8vh;
   color: white;
   text-align: center;
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 /* Flex css */
