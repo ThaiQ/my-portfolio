@@ -45,7 +45,7 @@ export default class Home extends Component {
     }
 
     render() {
-        return <div style={{ backgroundColor: 'black' }}>
+        return <div style={{ backgroundColor: '#161616' }}>
 
             <Navbar />
             

@@ -4,7 +4,7 @@ import Proj from '../../../components/project-box/projectBox'
 export default function ProjExp() {
   const projectBio = [
     {
-      title: 'IBM Good Tech Scholars Program',
+      title: 'IBM Good Tech Scholars',
       year: 'July 2020 | Virtual',
       picSRC: 'epicedu.png',
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
