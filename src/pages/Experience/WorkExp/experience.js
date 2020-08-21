@@ -26,7 +26,7 @@ export default function WorkExp() {
       personal: [
         'Developed software automation scripts and reports for test cases of new products’ interfaces using TestComplete.',
         'Received training in project management, leadership, and attended formal meetings with engineering teams.',
-        'Received a return offer from overachieved intern-projects by delivering automation scripts on strict personal deadlines with the guidance of experienced software engineers.'
+        'Secured a return offer from overachieved intern-projects by delivering automation scripts on strict personal deadlines with the guidance of experienced software engineers.'
       ]
     }
   ]
