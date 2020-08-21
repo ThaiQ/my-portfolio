@@ -69,7 +69,7 @@ export default function ProjExp() {
       aboutProj: 'Built a calendar application allowing the customer and owner to communicate with one another by creating meetings through a calendar interface.',
       personal: [
         "Built the project's backend with Python and Flask-framework.",
-        'Developed the appointment functionality and API of the application with AJAX and SQLite.',
+        'Developed the appointment API and its interactive UI using Jquery and SQLite.',
         'Designed the application frontend with Bootstrap.',
         'Wrote backend tests and integrated auto-integration using TravisCI.',
         'Deployed the application on Heroku.'
