@@ -6,6 +6,7 @@ import Home from './pages/Home/home'
 
 export default function Routes(props) {
 
+    //Adding route-path to components
     const routes = [
         {
             path: '/',

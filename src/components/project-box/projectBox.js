@@ -3,7 +3,7 @@ import './projectBox.css'
 import {
   Button
 } from 'reactstrap';
-import Projtxt from './utils/projTextv2';
+import Projtxt from './utils/projText';
 
 // Hook
 function useWindowSize() {

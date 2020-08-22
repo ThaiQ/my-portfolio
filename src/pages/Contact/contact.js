@@ -28,7 +28,7 @@ export default function Contact() {
                 subject: `THAI PORTFOLIO - Message From ${name}`,
                 text: `Name: ${name}\nEmail: ${email}\n---\n${msg}`
             };
-            mailgun.messages().send(data, function (error, body) {
+            mailgun.messages().send(data, function (error) {
                 if (error) {
                     setNoti(`Sorry, could not send email at the moment.
                      Make sure your email (${email}) is valid.

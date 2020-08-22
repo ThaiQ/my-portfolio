@@ -23,6 +23,7 @@ export default function NavigationBar(props) {
       url: 'https://github.com/ThaiQ'
     }
   ]
+  //popover controls
   const [popoverOpen, setPopoverOpen] = useState(false);
   const toggle = () => setPopoverOpen(!popoverOpen);
 

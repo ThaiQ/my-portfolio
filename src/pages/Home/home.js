@@ -11,7 +11,6 @@ import WorkExp from '../Experience/WorkExp/experience'
 import ProjExp from '../Experience/ProjExp/experience'
 import Contact from '../Contact/contact'
 import Footer from '../../components/footer/footer'
-import { Link } from 'react-scroll'
 
 export default class Home extends Component {
 
@@ -23,6 +22,7 @@ export default class Home extends Component {
         this.vantaRef = React.createRef()
     }
 
+    //Mounting vanta animation
     componentDidMount() {
         this.vantaEffect = BIRDS({
             el: this.vantaRef.current,
