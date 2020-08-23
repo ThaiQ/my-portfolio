@@ -37,12 +37,15 @@ export default function ProjExp() {
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
         'devicon-mongodb-plain colored', 'devicon-npm-original-wordmark colored',
         'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
+      demo: 'https://sce.engr.sjsu.edu/',
       github: 'https://github.com/SCE-Development/Core-v4',
       aboutProj: 'Led a team of 20 software engineering students and coordinated different events and development projects for SCE.',
       personal: [
         'Developed a dynamic website for SCE students using the full-stack React, Mongo, Express, and Node.',
-        'Used TravisCI, git, and Jest to manage and write test cases for components allowing better controls and easier future development.',
-        'Planned and executed infrastructure works with MERN-stack, Dockers Compose, and Google Firebase.'
+        'Used TravisCI, git, lint, and Jest to manage and write test cases for components allowing better controls and scalable future development.',
+        'Planned and executed infrastructure works with MERN-stack, Dockers Compose, and Google Firebase.',
+        'Led a team of 20 software engineering students and coordinated different development projects for SCE.',
+        'Elected to be the next president of SCE in 2020.'
       ]
     },
     {
