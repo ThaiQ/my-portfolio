@@ -25,9 +25,10 @@ export default function ProjExp() {
         kids with disabilities. The project aims to give children with autism and ADHD a personalized\
         workspace to fit their educational needs. The project won 1st place in the internship program.',
       personal: [
-        "Developed the project's infrastructure and backend.",
+        "Developed the project's infrastructure and backend using NodeJS, Express, and React.",
         "Used IBM cloud services: Elephant-SQL database (PostgreSQL), Watson's Text-to-speech service, and Cloud Foundry to build and deploy the application to the cloud.",
         'Fixes bugs and refactoring frontend.',
+        'Won 1st place in the internship program against 10 different teams.'
       ]
     },
     {
@@ -41,7 +42,7 @@ export default function ProjExp() {
       github: 'https://github.com/SCE-Development/Core-v4',
       aboutProj: 'Led a team of 20 software engineering students and coordinated different events and development projects for SCE.',
       personal: [
-        'Developed a dynamic website for SCE students using the full-stack React, Mongo, Express, and Node.',
+        'Developed the organization website using the full-stack React, Mongo, Express, and Node.',
         'Used TravisCI, git, lint, and Jest to manage and write test cases for components allowing better controls and scalable future development.',
         'Planned and executed infrastructure works with MERN-stack, Dockers Compose, and Google Firebase.',
         'Led a team of 20 software engineering students and coordinated different development projects for SCE.',

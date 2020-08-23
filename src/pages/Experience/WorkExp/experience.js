@@ -24,7 +24,7 @@ export default function WorkExp() {
         Attend formal meetings and workshops to develop professional skills. \
         Worked closely with the Agile methodology with different development teams and interns. ',
       personal: [
-        'Developed software automation scripts and reports for test cases of new products’ interfaces using TestComplete.',
+        'Developed 7 software automation scripts and reports for test cases of new products’ interfaces using TestComplete.',
         'Received training in project management, leadership, and attended formal meetings with engineering teams.',
         'Secured a return offer from overachieved intern-projects by delivering automation scripts on strict personal deadlines with the guidance of experienced software engineers.'
       ]
