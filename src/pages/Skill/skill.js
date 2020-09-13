@@ -51,8 +51,8 @@ export default class Skill extends Component {
                     color: 'white'
                 },
                 {
-                    name: 'Heroku',
-                    logo: 'devicon-heroku-original colored'
+                    name: 'Nginx',
+                    logo: 'devicon-nginx-original colored',
                 },
                 {
                     name: 'Docker',
@@ -73,6 +73,10 @@ export default class Skill extends Component {
                 {
                     name: 'JQuery',
                     logo: 'devicon-jquery-plain colored'
+                },
+                {
+                    name: 'Heroku',
+                    logo: 'devicon-heroku-original colored'
                 },
                 {
                     name: 'NPM',
