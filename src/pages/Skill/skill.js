@@ -36,14 +36,9 @@ export default class Skill extends Component {
 
                 },
                 {
-                    name: 'Express',
-                    logo: 'devicon-express-original',
-                    color: 'white'
+                    name: 'C',
+                    logo: 'devicon-c-plain-wordmark colored'
 
-                },
-                {
-                    name: 'Git',
-                    logo: 'devicon-git-plain colored'
                 },
                 {
                     name: 'Linux',
@@ -71,12 +66,14 @@ export default class Skill extends Component {
                     logo: 'devicon-postgresql-plain colored'
                 },
                 {
-                    name: 'JQuery',
-                    logo: 'devicon-jquery-plain colored'
+                    name: 'Express',
+                    logo: 'devicon-express-original',
+                    color: 'white'
+
                 },
                 {
-                    name: 'Heroku',
-                    logo: 'devicon-heroku-original colored'
+                    name: 'JQuery',
+                    logo: 'devicon-jquery-plain colored'
                 },
                 {
                     name: 'NPM',
@@ -85,6 +82,10 @@ export default class Skill extends Component {
                 {
                     name: 'Yarn',
                     logo: 'devicon-yarn-plain colored'
+                },
+                {
+                    name: 'Git',
+                    logo: 'devicon-git-plain colored'
                 },
             ]
         };

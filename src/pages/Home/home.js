@@ -58,23 +58,30 @@ export default class Home extends Component {
                 </div>
             </div>
 
-            <section id='nav-about'>
+            <section id='nav-about'></section>
+
+            <section>
             <About/>
             </section>
 
-            <section id='nav-skills'>
+            <section id='nav-skills'></section>
+
+            <section>
             <Skill/>
             </section>
 
-            <section id='nav-wkexp'>
+            <section id='nav-wkexp'></section>
+            <section>
             <WorkExp/>
             </section>
 
-            <section id='nav-prj'>
+            <section id='nav-prj'></section>
+            <section>
             <ProjExp/>
             </section>
 
-            <section id='nav-contact'>
+            <section id='nav-contact'></section>
+            <section>
                 <Contact />
                 <Footer />
             </section>

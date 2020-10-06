@@ -44,7 +44,7 @@ export default function About () {
             <p className='bio-text text'>
                 My experiences revolve around developing
                 full-stack application and quality assurance.
-                I am well-versatile with web-development and web-frameworks such as React.
+                I am well-versatile with web-development with embbed cloud technologies.
             </p>
 
             <p className='fun-text text'> 
