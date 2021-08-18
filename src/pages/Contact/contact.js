@@ -12,8 +12,8 @@ export default function Contact() {
     const [email, setEmail] = useState('')
     const [msg, setMSG] = useState('')
 
-    const api_key = 'key';
-    const domain = 'domain';
+    const api_key = process.env.MAILGUN_API_KEY;
+    const domain = process.env.MAILGUN_DOMAIN_NAME;
     const mailgun = require('mailgun-js')({ apiKey: api_key, domain: domain });
 
     /**
