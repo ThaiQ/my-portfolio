@@ -4,6 +4,36 @@ import Proj from '../../../components/project-box/projectBox'
 export default function WorkExp() {
   const projectBio = [
     {
+      title: "IBM Extreme Blue Technical/Software Engineer Intern",
+      year: 'May-August 2021 | Austin, TX',
+      skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
+      'devicon-couchdb-plain colored', 'devicon-npm-original-wordmark colored', 'devicon-redhat-plain-wordmark colored',
+      'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
+      picSRC: 'ibm.jpeg',
+      picSkills: [
+        {
+          file: 'ibm.png',
+          widthBig: '50px',
+          widthSmall: '50px'
+        },
+        {
+          file: 'agile.png',
+          widthBig: '60px',
+          widthSmall: '50px',
+          word: 'Agile'
+        }
+      ],
+      aboutProj: 'Collaborated with 3 other interns and applied\
+       leadership, business, and technical skills to solve a business\
+        problem under the guidance of IBM mentors and sponsor users’ weekly feedback.',
+      personal: [
+        'Developed an application on IBM Cloud Pak For Security that facilitates collaboration between security threat analysts using React, Node, Express, GraphQL, CouchDB, Docker, and Red Hat Openshift.',
+        'Presented and delivered the product to executive panels and CTOs of IBM Security.',
+        'Overseeked the end-to-end development process and designed backend infrastructure, database integration, and APIs.'
+
+      ]
+    },
+    {
       title: "UCOP's Test Automation Engineering Intern",
       year: 'June-August 2019 | at University of California Office of the President',
       skills: ['devicon-javascript-plain colored'],
