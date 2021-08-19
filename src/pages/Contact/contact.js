@@ -12,8 +12,8 @@ export default function Contact() {
     const [email, setEmail] = useState('')
     const [msg, setMSG] = useState('')
 
-    const api_key = process.env.MAILGUN_API_KEY;
-    const domain = process.env.MAILGUN_DOMAIN_NAME;
+    const api_key = process.env.REACT_APP_MAILGUN_API_KEY;
+    const domain = process.env.REACT_APP_MAILGUN_DOMAIN_NAME;
     const mailgun = require('mailgun-js')({ apiKey: api_key, domain: domain });
 
     /**
@@ -72,7 +72,7 @@ export default function Contact() {
                     type="textarea" name="text" id="exampleText" id='form-txt' />
             </FormGroup>
             <Button outline color="info" id='form-button' onClick={() => { toggle() }}>Submit</Button>
-        </Form> : <h2 className='title'>Sent Email</h2>}
+        </Form> : <h2 className='title contact_title'>Sent Email</h2>}
 
         <div>
             <Modal isOpen={modal} toggle={() => { toggle() }}>
