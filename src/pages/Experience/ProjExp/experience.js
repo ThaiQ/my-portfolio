@@ -4,7 +4,7 @@ import Proj from '../../../components/project-box/projectBox'
 export default function ProjExp() {
   const projectBio = [
     {
-      title: 'IBM Good Tech Scholars',
+      title: 'IBM Good Tech Scholars Hackathon',
       year: 'July 2020 | Virtual',
       picSRC: 'epicedu.png',
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
@@ -29,6 +29,29 @@ export default function ProjExp() {
         "Used IBM cloud services: Elephant-SQL database (PostgreSQL), Watson's Text-to-speech service, and Cloud Foundry to build and deploy the application to the cloud.",
         'Fixes bugs and refactoring frontend.',
         'Won 1st place in the internship program against 10 different teams.'
+      ]
+    },
+    {
+      title: 'Fast Regional Based Convolutional Neural Network Model to Detect Deep-Fake',
+      year: 'July 2020 - Present',
+      picSRC: 'deepfake.png',
+      skills: ['devicon-python-plain colored','devicon-tensorflow-original colored','devicon-javascript-plain colored', 'devicon-react-plain colored'],
+      picSkills: [
+        {
+          file: 'flask.png',
+          widthBig: '40px',
+          widthSmall: '30px',
+          word: 'Flask'
+        }
+      ],
+      github: 'https://github.com/ThaiQ/Deepfake_Recognition',
+      demo: '',
+      aboutProj: 'Trained a machine learning R-CNN model that can detect popular Deep-Fake generators and data sources.',
+      personal: [
+        "Designed model with Tensorflow, tf.Keras, and OpenCV2.",
+        "Wrote autonomous python scripts to scrape for data and clean-up datasets",
+        "Developed an interactive React - Flask website to make the model publicly available for online users.",
+        "Model achieved 90% of accuracy under 3 different datasets."
       ]
     },
     {

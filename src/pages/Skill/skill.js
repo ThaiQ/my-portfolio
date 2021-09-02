@@ -17,6 +17,11 @@ export default function Skill(props) {
             logo: 'devicon-python-plain colored'
         },
         {
+            name: 'Tensorflow',
+            logo: 'devicon-tensorflow-original colored'
+
+        },
+        {
             name: 'React',
             logo: 'devicon-react-original colored'
 
