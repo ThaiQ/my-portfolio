@@ -27,10 +27,12 @@ export default function WorkExp() {
        leadership, business, and technical skills to solve a business\
         problem under the guidance of IBM mentors and sponsor users’ weekly feedback.',
       personal: [
-        'Developed an application on IBM Cloud Pak For Security that facilitates collaboration between security threat analysts using React, Node, Express, GraphQL, CouchDB, Docker, and Red Hat Openshift.',
-        'Presented and delivered the product to executive panels and CTOs of IBM Security.',
-        'Overseeked the end-to-end development process and designed backend infrastructure, database integration, and APIs.'
-
+        'Developed an enterprise application on IBM Cloud Pak For Security that facilitates collaboration between security threat analysts',
+        'Gathered problems and business and technical requirements to arrive at a solution.',
+        'Designed frontend with ReactJS and NodeJS.',
+        'Designed backend APIs with Express, GraphQL, and CouchDB database.',
+        'Deployed application on IBM Cloud Paks using Docker, kubernetes, and Red Hat Openshift.',
+        'Presented and delivered the product to executive panels and CTOs of IBM Security.'
       ]
     },
     {
@@ -54,9 +56,10 @@ export default function WorkExp() {
         Attend formal meetings and workshops to develop professional skills. \
         Worked closely with the Agile methodology with different development teams and interns. ',
       personal: [
-        'Developed 7 software automation scripts and reports for test cases of new products’ interfaces using TestComplete.',
-        'Received training in project management, leadership, and attended formal meetings with engineering teams.',
-        'Secured a return offer from overachieved intern-projects by delivering automation scripts on strict personal deadlines with the guidance of experienced software engineers.'
+        'Write autonomous user-interface tests with Selenium and TestComplete for a new product’s interface.',
+        'Generated test reports for test cases and delivered them to team leads.',
+        'Practiced Agile - Scrum methodology to quickly deliver minimum viable products (MVPs).',
+        'Presented testing practices and values at stakeholders panel.'
       ]
     }
   ]

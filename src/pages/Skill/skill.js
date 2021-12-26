@@ -17,29 +17,32 @@ export default function Skill(props) {
             logo: 'devicon-python-plain colored'
         },
         {
+            name: 'AWS web services',
+            logo: 'devicon-amazonwebservices-original colored'
+        },
+        {
+            name: 'Google Cloud',
+            logo: 'devicon-googlecloud-plain colored'
+        },
+        {
             name: 'Tensorflow',
             logo: 'devicon-tensorflow-original colored'
-
         },
         {
             name: 'React',
             logo: 'devicon-react-original colored'
-
         },
         {
             name: 'HTML',
             logo: 'devicon-html5-plain colored'
-
         },
         {
             name: 'CSS',
             logo: 'devicon-css3-plain colored'
-
         },
         {
-            name: 'C',
-            logo: 'devicon-c-plain-wordmark colored'
-
+            name: 'Kubernetes',
+            logo: 'devicon-kubernetes-plain colored'
         },
         {
             name: 'Linux',
@@ -63,8 +66,8 @@ export default function Skill(props) {
             logo: 'devicon-mongodb-plain colored'
         },
         {
-            name: 'CouchDB',
-            logo: 'devicon-couchdb-plain colored'
+            name: 'MySQL',
+            logo: 'devicon-mysql-plain colored'
         },
         {
             name: 'PostgreSQL',

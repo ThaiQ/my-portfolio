@@ -3,9 +3,60 @@ import Proj from '../../../components/project-box/projectBox'
 
 export default function ProjExp() {
   const projectBio = [
+    
+    {
+      title: 'Fast Regional Based Convolutional Neural Network Model to Detect Deep-Fake',
+      year: 'July 2020 - December 2021',
+      picSRC: 'deepfake.png',
+      skills: ['devicon-python-plain colored','devicon-tensorflow-original colored','devicon-javascript-plain colored', 'devicon-react-plain colored'],
+      picSkills: [
+        {
+          file: 'opencv.png',
+          widthBig: '40px',
+          widthSmall: '30px',
+          word: 'OpenCV'
+        },
+        {
+          file: 'flask.png',
+          widthBig: '40px',
+          widthSmall: '30px',
+          word: 'Flask'
+        }
+      ],
+      github: 'https://github.com/ThaiQ/Deepfake_Recognition',
+      demo: '',
+      aboutProj: 'Trained a machine learning R-CNN model that can detect popular Deep-Fake generators and data sources.',
+      personal: [
+        "Trained an ensemble machine learning of 5 R-CNN models to detect popular Deep-Fake generators and data sources.",
+        "Designed RCNN model with Tensorflow 2.0 and tf.Keras.",
+        "Wrote autonomous python scripts to scrape and clean-up datasets, preprocese, and normalize images before training.",
+        "Developed an interactive React - Flask website to publish the model for online users.",
+        "Models achieved 67% of accuracy under test datasets."
+      ]
+    },
+
+    {
+      title: 'SCE Development Chair',
+      year: 'August 2018 - August 2021 | at SJSU Software and Computer Engineering Society (SCE)',
+      picSRC: 'sce.png',
+      skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
+        'devicon-mongodb-plain colored', 'devicon-npm-original-wordmark colored',
+        'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
+      demo: 'https://sce.engr.sjsu.edu/',
+      github: 'https://github.com/SCE-Development/Core-v4',
+      aboutProj: 'Development Team Chair (2019-2020) / President (2020-2021) ',
+      personal: [
+        'Developed the organization website using full-stack: React, Mongo, Express, and Node.',
+        'Write unit-test cases and implement a continuous integration pipeline with TravisCI, git, lint, and Jest.',
+        'Containerized and deployed servers with Docker and load balancing traffic with Nginx.',
+        'Led full-stack technical workshop and interviewed, recruited, and cultivated new student leaders and engineers for\
+        projects and other organizations.',
+      ]
+    },
+
     {
       title: 'IBM Good Tech Scholars Hackathon',
-      year: 'July 2020 | Virtual',
+      year: 'July 2020 - August 2020 | Virtual',
       picSRC: 'epicedu.png',
       skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
         'devicon-postgresql-plain colored', 'devicon-npm-original-wordmark colored',
@@ -25,53 +76,31 @@ export default function ProjExp() {
         kids with disabilities. The project aims to give children with autism and ADHD a personalized\
         workspace to fit their educational needs. The project won 1st place in the internship program.',
       personal: [
+        "Built Epic-Education, an online educational platform, targeting low-income elementary school kids with disabilities.",
         "Developed the project's infrastructure and backend using NodeJS, Express, and React.",
-        "Used IBM cloud services: Elephant-SQL database (PostgreSQL), Watson's Text-to-speech service, and Cloud Foundry to build and deploy the application to the cloud.",
-        'Fixes bugs and refactoring frontend.',
-        'Won 1st place in the internship program against 10 different teams.'
+        "Deployed the application on the cloud with integrated AI features from IBM cloud services: PostgreSQL, Watson's\
+        Text-to-speech service, and IBM Cloud.",
+        'Won 1st place in the hackathon program against 10 different teams.'
       ]
     },
+
     {
-      title: 'Fast Regional Based Convolutional Neural Network Model to Detect Deep-Fake',
-      year: 'July 2020 - Present',
-      picSRC: 'deepfake.png',
-      skills: ['devicon-python-plain colored','devicon-tensorflow-original colored','devicon-javascript-plain colored', 'devicon-react-plain colored'],
-      picSkills: [
-        {
-          file: 'flask.png',
-          widthBig: '40px',
-          widthSmall: '30px',
-          word: 'Flask'
-        }
-      ],
-      github: 'https://github.com/ThaiQ/Deepfake_Recognition',
-      demo: '',
-      aboutProj: 'Trained a machine learning R-CNN model that can detect popular Deep-Fake generators and data sources.',
+      title: 'Canvas Redesign - UI/UX ',
+      year: 'November 2020 - December 2020',
+      picSRC: 'canvas.png',
+      skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-amazonwebservices-original colored',
+      'devicon-nodejs-plain colored', 'devicon-javascript-plain colored', 'devicon-npm-original-wordmark colored'],
+      github: 'https://github.com/ThaiQ/Canvas-Redesign',
+      demo: 'https://www.youtube.com/watch?v=l12VM_q69ss&ab_channel=Rollin%27Potato',
+      aboutProj: 'Redesign student Canvas dashboard.',
       personal: [
-        "Designed model with Tensorflow, tf.Keras, and OpenCV2.",
-        "Wrote autonomous python scripts to scrape for data and clean-up datasets",
-        "Developed an interactive React - Flask website to make the model publicly available for online users.",
-        "Model achieved 90% of accuracy under 3 different datasets."
+        "Redesigned the student Canvas dashboard - aiming to improve the user interface and user experience.",
+        "Designed and implemented the new dashboard with ReactJS frontend.",
+        "Integrated the product with AWS services: API Gateway, Lambda, and DynamoDB as backend stack.",
+        "Wrote unit-test and lambda test cases to ensure cloud communications.",
       ]
     },
-    {
-      title: 'SCE Development Chair',
-      year: 'August 2018 - present | at SJSU Software and Computer Engineering Society (SCE)',
-      picSRC: 'sce.png',
-      skills: ['devicon-javascript-plain colored', 'devicon-react-plain colored', 'devicon-nodejs-plain colored', 'devicon-express-original',
-        'devicon-mongodb-plain colored', 'devicon-npm-original-wordmark colored',
-        'devicon-git-plain colored', 'devicon-docker-plain colored', 'devicon-html5-plain colored', 'devicon-css3-plain colored'],
-      demo: 'https://sce.engr.sjsu.edu/',
-      github: 'https://github.com/SCE-Development/Core-v4',
-      aboutProj: 'Led a team of 20 software engineering students and coordinated different events and development projects for SCE.',
-      personal: [
-        'Developed the organization website using the full-stack React, Mongo, Express, and Node.',
-        'Used TravisCI, git, lint, and Jest to manage and write test cases for components allowing better controls and scalable future development.',
-        'Planned and executed infrastructure works with MERN-stack, Dockers Compose, and Google Firebase.',
-        'Led a team of 20 software engineering students and coordinated different development projects for SCE.',
-        'Elected to be the next president of SCE in 2020.'
-      ]
-    },
+
     {
       title: 'STAKr-Calendar Developer',
       year: 'March - June 2020',
@@ -102,6 +131,7 @@ export default function ProjExp() {
         'Deployed the application on Heroku.'
       ]
     },
+    
     {
       title: 'Personal Porfolio',
       year: 'June - August 2020',
